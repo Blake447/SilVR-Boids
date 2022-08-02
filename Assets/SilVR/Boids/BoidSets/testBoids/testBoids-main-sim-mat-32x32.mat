@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: testBoids-main-sim-mat-32x32
+  m_Shader: {fileID: 4800000, guid: c7fcce18be3bc0a4eb30ea959307e9e9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 8400000, guid: c7cb61b4695db65489ee35f932aee5bf, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 67e6c1773577ff44a9986818e6548c7f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WorldPosTarget:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlignmentInfluence: 0.0025
+    - _AlignmentScale: 0.6
+    - _AttractionScale: 0
+    - _BoidCount: 256
+    - _BoidRange: 7
+    - _BoundaryDistace: 39.73
+    - _BoundaryDistance: 1
+    - _BoundaryInfluence: 0.027
+    - _BoundaryScale: 20
+    - _ClosenessScale: 25
+    - _Damping: 0.9
+    - _ExclusionScale: 0.0001
+    - _GroupingInfluence: 0.006
+    - _GroupingScale: 0.065
+    - _RepulsionDistance: 0.35
+    - _RepulsionInfluence: 0.025
+    - _RepulsionScale: 5
+    - _SpeedLimit: 0.00005
+    - _SpeedNosie: 0.1
+    - _TextureHeight: 16
+    - _TextureWidth: 16
+    - _TimeScale: 3
+    - _VelocityScale: 1.3
+    m_Colors:
+    - _BoundaryMultipliers: {r: 1, g: 1, b: 1, a: 1}
